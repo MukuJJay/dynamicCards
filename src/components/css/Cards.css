@@ -1,0 +1,236 @@
+.cardWrapper{
+    display: flex;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.card{
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    background: #F8F8F8;
+    width: 330px;
+    position: relative;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.cardContainer{
+    padding: 0 15px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* =============== cardHead ================== */
+.cardHead .cardContainer{
+    padding-top: 65px;
+    margin-bottom: 10px;
+}
+
+.session{
+    position: absolute;
+    z-index: 2;
+    top: 22px;
+    left: 15px;
+}
+.discount{
+    position: absolute;
+    z-index: 2;
+    top: 12px;
+    right: 10px;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+}
+
+.pentagon{
+    position: absolute;
+    z-index: 1;
+    width: 180px;
+    height: 30px;
+    top: 15px;
+    z-index: 2;
+}
+.ellipse{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    width: 70px;
+    height: 70px;
+}
+
+/* =================== cardBody ===================== */
+.cardBody{
+    padding-top: 25px;
+}
+.cardBody h4{
+    margin-top: 15px;
+}
+.aftermath{
+    list-style-type: disc;
+    padding: 15px 0 30px 20px;
+}
+.aftermath li{
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    line-height: 20px;
+}
+
+
+/* ===============cradFoot================ */
+.cardFoot{
+    padding: 15px 0 25px;
+}
+
+.offerPricing{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.oldOffer{
+    text-decoration: line-through;
+    margin-bottom: 15px;
+}
+
+.ps{
+    color: #F47759;
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.values{
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0 25px;
+}
+
+.values img{
+    width: 18px;
+    height: 18px;
+}
+
+.values span{
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    color: #333333;
+    font-weight: 600;
+}
+.values .activity,.game,.certificate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.btn{
+    background: linear-gradient(90deg, #F3705B 0%, #FCB444 100%);
+    border-radius: 48px;
+    padding: 10px 40px;
+    border: 0;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: 200ms;
+}
+.btn:hover{
+    background: linear-gradient(90deg, #FCB444 0%, #F3705B 100%);
+    transform: scale(1.1);
+}
+
+/* dynamic css */
+.Communication{
+    background-color: #edfcff;
+}
+.CommunicationText{
+    color: #edfcff;
+}
+.CommunicationDarkText{
+    color: #3EBEFF;
+}
+.CommunicationSvg{
+    filter: invert(100%) sepia(22%) saturate(6027%) hue-rotate(177deg) brightness(108%) contrast(104%);
+}
+.CommunicationDarkSvg{
+    filter: brightness(0) saturate(100%) invert(59%) sepia(17%) saturate(1647%) hue-rotate(161deg) brightness(106%) contrast(105%);
+}
+
+.visualArts{
+    background-color: #dcccff;
+}
+.visualArtsText{
+    color: #dcccff;
+}
+.visualArtsDarkText{
+    color: #905CFF;
+}
+.visualArtsSvg{
+    filter: invert(90%) sepia(23%) saturate(2645%) hue-rotate(189deg) brightness(104%) contrast(101%);
+}
+.visualArtsDarkSvg{
+    filter: brightness(0) saturate(100%) invert(33%) sepia(95%) saturate(778%) hue-rotate(228deg) brightness(108%) contrast(105%);
+}
+
+.Music{
+    background-color: #FFEDC8;
+}
+.MusicDarkText{
+    color: #F9B215;
+}
+.MusicText{
+    color: #FFEDC8;
+}
+.MusicSvg{
+    filter: invert(86%) sepia(33%) saturate(280%) hue-rotate(337deg) brightness(104%) contrast(104%);
+}
+.MusicDarkSvg{
+    filter: brightness(0) saturate(100%) invert(69%) sepia(64%) saturate(760%) hue-rotate(349deg) brightness(101%) contrast(96%);
+}
+
+/* =============== hover effects ============*/
+.card:hover{
+    transform: translateY(-30px);
+}
+/* Communication */
+
+.card:hover .Communication{
+    background-color: #3EBEFF;
+}
+.card:hover .CommunicationDarkText{
+    color: #edfcff;
+}
+.card:hover .CommunicationDarkSvg{
+    filter: brightness(0) saturate(100%) invert(84%) sepia(2%) saturate(4066%) hue-rotate(193deg) brightness(116%) contrast(104%);
+}
+
+/* Visual Arts  */
+.card:hover .visualArts{
+    background-color: #905CFF;
+}
+.card:hover .visualArtsDarkText{
+    color: #dcccff;
+}
+.card:hover .visualArtsDarkSvg{
+    filter: brightness(0) saturate(100%) invert(72%) sepia(36%) saturate(233%) hue-rotate(215deg) brightness(104%) contrast(106%);
+}
+
+/* Music */
+.card:hover .Music{
+    background-color: #F9B215;
+}
+.card:hover .MusicDarkText{
+    color: #FFEDC8;
+}
+.card:hover .MusicDarkSvg{
+    filter: brightness(0) saturate(100%) invert(94%) sepia(8%) saturate(1500%) hue-rotate(320deg) brightness(104%) contrast(106%);
+}
