@@ -15,4 +15,26 @@
     background-color: #D5F1FE;
     border-radius: 8px;
     cursor: pointer;
+    transition: 200ms;
+    position: relative;
+}
+
+.cardSelectors li.active::after{
+    content: "";
+    width: 0;
+	height: 0;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-top: 16px solid #003F5C;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+}
+
+.cardSelectors li.active{
+    background-color: #003F5C;
+}
+
+.cardSelectors li.active *{
+    color: #ffffff;
 }
