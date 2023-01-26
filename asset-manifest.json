@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/dynamicCards/static/css/main.539cecde.css",
-    "main.js": "/dynamicCards/static/js/main.ca08139d.js",
+    "main.css": "/dynamicCards/static/css/main.c1b053f2.css",
+    "main.js": "/dynamicCards/static/js/main.9bdefd2c.js",
     "static/media/certificate.svg": "/dynamicCards/static/media/certificate.14d19ac2c9f46efae2746000bb4ac5e0.svg",
     "index.html": "/dynamicCards/index.html",
     "static/media/games.svg": "/dynamicCards/static/media/games.52b33710015a4c9b0385c0133324b5d0.svg",
     "static/media/pentagon.svg": "/dynamicCards/static/media/pentagon.435a8cdf54cb2c67002839d773ec010f.svg",
     "static/media/activity.svg": "/dynamicCards/static/media/activity.0fd9aaad0752efd7b05fdf6db3fff16f.svg",
     "static/media/ellipse.svg": "/dynamicCards/static/media/ellipse.d744d922918ceb02fe73d2ac0af871c9.svg",
-    "main.539cecde.css.map": "/dynamicCards/static/css/main.539cecde.css.map",
-    "main.ca08139d.js.map": "/dynamicCards/static/js/main.ca08139d.js.map"
+    "main.c1b053f2.css.map": "/dynamicCards/static/css/main.c1b053f2.css.map",
+    "main.9bdefd2c.js.map": "/dynamicCards/static/js/main.9bdefd2c.js.map"
   },
   "entrypoints": [
-    "static/css/main.539cecde.css",
-    "static/js/main.ca08139d.js"
+    "static/css/main.c1b053f2.css",
+    "static/js/main.9bdefd2c.js"
   ]
 }
